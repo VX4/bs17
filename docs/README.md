@@ -1,5 +1,5 @@
 # Welcome stranger!
-This is the repository for Berlin Sides 2017 "Smartcard Island".</br>
+This is the repository for Berlin Sides 2017 "Smartcard Island".<br>
 A  project from adesso AG and ZeitControl cardsystems GmbH.</br>
 For further informations about these companies click on one of the specific images below.</br>
 <div><a href="https://adesso.de"><img src="adesso_smartcard.png" float="left"  width="48%" ></a>
