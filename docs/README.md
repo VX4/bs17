@@ -8,11 +8,11 @@ For further informations about these companies click on one of the specific imag
 </div>
 <br>
 <br>
-# Technical details
+## Technical details
 
-# Applications & Use cases
+## Applications & Use cases
 
-# Useful tools
+## Useful tools
 <br>
 <br>
 <br>
