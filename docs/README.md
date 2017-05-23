@@ -1,4 +1,4 @@
-# bs17
+# Welcome stranger!
 Repository for Berlin Sides 2017 "Smartcard Island"
 
 
