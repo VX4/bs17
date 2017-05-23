@@ -1,10 +1,11 @@
 # Welcome stranger!
-Repository for Berlin Sides 2017 "Smartcard Island"
-
-
-
-
+This is the repository for Berlin Sides 2017 "Smartcard Island".
+A  project from adesso AG and ZeitControl cardsystems GmbH.
+For further informations about these companies click on one of the specific images below.
 <a href="https://adesso.de"><img src="TMW_Cardlayout_Preview3.png"  width="50%" ></a>
+<a href="https://adesso.de"><img src="TMW_Cardlayout_Preview3.png"  width="50%" ></a>
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/VX4/bs17/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
