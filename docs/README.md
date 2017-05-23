@@ -2,7 +2,7 @@
 Repository for Berlin Sides 2017 "Smartcard Island"
 
 
-<div style="width:50%">![Image](https://github.com/VX4/bs17/blob/master/docs/TMW_Cardlayout_Preview3.png)</div>
+![Image](https://github.com/VX4/bs17/blob/master/docs/TMW_Cardlayout_Preview3.png)
 
 ## Welcome to GitHub Pages
 
