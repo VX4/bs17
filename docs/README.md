@@ -4,7 +4,7 @@ Repository for Berlin Sides 2017 "Smartcard Island"
 
 ![Image](TMW_Cardlayout_Preview3.png){:height="36px" width="36px"}
 
-
+<a href="url"><img src="http://url.to/image.png" align="left" height="48" width="48" ></a>
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/VX4/bs17/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
