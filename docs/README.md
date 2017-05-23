@@ -4,7 +4,7 @@ Repository for Berlin Sides 2017 "Smartcard Island"
 
 
 
-<a href="https://adesso.de"><img src="TMW_Cardlayout_Preview3.png" align="left" height="48" width="48" ></a>
+<a href="https://adesso.de"><img src="TMW_Cardlayout_Preview3.png" align="center"  width="50%" ></a>
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/VX4/bs17/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
