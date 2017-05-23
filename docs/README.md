@@ -4,6 +4,10 @@ Repository for Berlin Sides 2017 "Smartcard Island"
 
 ![Image](https://github.com/VX4/bs17/blob/master/docs/TMW_Cardlayout_Preview3.png)
 
+\begin{figure}
+ \includegraphics[width=300pt, height = 125 pt]{https://github.com/VX4/bs17/blob/master/docs/TMW_Cardlayout_Preview3.png}
+\end{figure}
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/VX4/bs17/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
