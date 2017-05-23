@@ -8,14 +8,13 @@ For further informations about these companies click on one of the specific imag
 </div>
 <br>
 <br>
-## Technical details
+
+# Technical details
 
 ## Applications & Use cases
 
 ## Useful tools
-<br>
-<br>
-<br>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/VX4/bs17/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
