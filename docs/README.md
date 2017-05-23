@@ -11,6 +11,9 @@ For further informations about these companies click on one of the specific imag
 
 # Technical details
 
+The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 inside.
+
+
 ## Applications & Use cases
 
 ## Useful tools
