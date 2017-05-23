@@ -5,7 +5,11 @@ For further informations about these companies click on one of the specific imag
 <div><a href="https://adesso.de"><img src="adesso_smartcard.png" float="left"  width="48%" ></a>
 <a href="https://adesso.de"><img src="adesso_smartcard.png" float="right" width="48%" ></a>
 </div>
-
+<br>
+<br>
+<br>
+<br>
+<br>
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/VX4/bs17/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
