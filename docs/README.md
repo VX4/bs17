@@ -19,38 +19,38 @@ The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 from the Sma
   - Endurance: 500000 cycles typical
 - ROM: 264 KB
 - RAM: 7680 B
- - 256 B IRAM + 4.75 KB standard RAM usable for CPU
- - 2560 B FXRAM usable for FameXE
-4. Dedicated, Accelerated Secure_MX51 smart card CPU (Memory eXtended/enhanced 80C51) 
-- 5-metal layer 0.14 μm CMOS technology
-- Operating in Contact and Contactless mode (dependent on family type option)
-- Featuring a 24-bit universal memory space, 24-bit program counter
-- Combined universal program and data linear address range up to 16 MB
-- Additional instructions to improve:
-  - pointer operations
-  - performance
-  - code density of both C and Java source code
-5. ISO/IEC 7816 contact interface
-6. ISO/IEC 14443 contactless interface
-7. PKI coprocessor FameXE
-8. Support of major Public Key Cryptography (PKC) systems such as RSA, Elgamel, DSS, Diffie-Hellman, Guillou-Quisquater, Fiat-Shamir and Elliptic Curves
-- 8192 bits maximum key length for RSA with randomly chosen modulus
-- 4096 bits maximum key length for calculation within RAM
-- 32-bit interface
-- Boolean operations for acceleration of standard, symmetric cipher algorithms
-9. High speed triple-DES coprocessor (64-bit parallel processing DES engine)
-- Two or three keys loadable
-- DES3 performance < 40 μs
-10. High speed AES coprocessor (128-bit parallel processing AES engine)
-11. Memory Management Unit (MMU) with increased number of 8 cache segments
-12. Low power and low voltage design using NXP Semiconductors’ handshaking technology
-13. Multiple source vectorized interrupt system with four priority levels
-14. Watch exception provides software debugging facility
-15. Multiple source RESET system
-16. Two 16-bit timers
-17. Highly reliable EEPROM for both data storage and program execution
-18. Bytewise EEPROM programming and read access
-19. Versatile EEPROM programming of 1 B to 64 B at a time or, optionally 1 B to 128 B at a time
+  - 256 B IRAM + 4.75 KB standard RAM usable for CPU
+  - 2560 B FXRAM usable for FameXE
+- Dedicated, Accelerated Secure_MX51 smart card CPU (Memory eXtended/enhanced 80C51) 
+  - 5-metal layer 0.14 μm CMOS technology
+  - Operating in Contact and Contactless mode (dependent on family type option)
+  - Featuring a 24-bit universal memory space, 24-bit program counter
+  - Combined universal program and data linear address range up to 16 MB
+  - Additional instructions to improve:
+    - pointer operations
+    - performance
+    - code density of both C and Java source code
+- ISO/IEC 7816 contact interface
+- ISO/IEC 14443 contactless interface
+- PKI coprocessor FameXE
+- Support of major Public Key Cryptography (PKC) systems such as RSA, Elgamel, DSS, Diffie-Hellman, Guillou-Quisquater, Fiat-Shamir and Elliptic Curves
+  - 8192 bits maximum key length for RSA with randomly chosen modulus
+  - 4096 bits maximum key length for calculation within RAM
+  - 32-bit interface
+  - Boolean operations for acceleration of standard, symmetric cipher algorithms
+- High speed triple-DES coprocessor (64-bit parallel processing DES engine)
+  - Two or three keys loadable
+  - DES3 performance < 40 μs
+- High speed AES coprocessor (128-bit parallel processing AES engine)
+- Memory Management Unit (MMU) with increased number of 8 cache segments
+- Low power and low voltage design using NXP Semiconductors’ handshaking technology
+- Multiple source vectorized interrupt system with four priority levels
+- Watch exception provides software debugging facility
+- Multiple source RESET system
+- Two 16-bit timers
+- Highly reliable EEPROM for both data storage and program execution
+- Bytewise EEPROM programming and read access
+- Versatile EEPROM programming of 1 B to 64 B at a time or, optionally 1 B to 128 B at a time
 
 
 
