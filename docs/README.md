@@ -90,22 +90,22 @@ The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 from the Sma
 ## Useful tools
 
 **NFC TagInfo from NXP Semiconductors for diagnostics**
-[Link](https://play.google.com/store/apps/details?id=com.nxp.taginfolite)
+[https://play.google.com/store/apps/details?id=com.nxp.taginfolite](https://play.google.com/store/apps/details?id=com.nxp.taginfolite)
 
 **NFC Tools from wakdev to manage NDEF tag content**
-[Link](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc)
+[https://play.google.com/store/apps/details?id=com.wakdev.wdnfc](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc)
 
 **Google Authenticator from Google for FIDO U2F NFC support**
-[Link](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
+[https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
 
 **FIDO U2F demo at Google appspot**
-[Link](https://u2fdemo.appspot.com/)
+[https://u2fdemo.appspot.com/](https://u2fdemo.appspot.com/)
 
 **AusweisApp2 from Governikus for eID functionality**
-[Link](https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2)
+[https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2](https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2)
 
 **Governikus Autent Test-PKI application for eID-Test**
-[Link](https://test.governikus-eid.de/Autent-DemoApplication/)
+[https://test.governikus-eid.de/Autent-DemoApplication/](https://test.governikus-eid.de/Autent-DemoApplication/)
 
 
 
