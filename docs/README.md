@@ -14,13 +14,13 @@ For further informations about these companies click on one of the specific imag
 The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 from the SmartMX family inside.
 
 ### Standard family features
-1. EEPROM: choice of 16 KB, 20 KB, 40 KB or 80 KB
-- Data retention time: 25 years minimum
-- Endurance: 500000 cycles typical
-2. ROM: 264 KB
-3. RAM: 7680 B
-- 256 B IRAM + 4.75 KB standard RAM usable for CPU
-- 2560 B FXRAM usable for FameXE
+- EEPROM: choice of 16 KB, 20 KB, 40 KB or 80 KB
+  - Data retention time: 25 years minimum
+  - Endurance: 500000 cycles typical
+- ROM: 264 KB
+- RAM: 7680 B
+ - 256 B IRAM + 4.75 KB standard RAM usable for CPU
+ - 2560 B FXRAM usable for FameXE
 4. Dedicated, Accelerated Secure_MX51 smart card CPU (Memory eXtended/enhanced 80C51) 
 - 5-metal layer 0.14 μm CMOS technology
 - Operating in Contact and Contactless mode (dependent on family type option)
