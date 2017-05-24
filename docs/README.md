@@ -11,7 +11,58 @@ For further informations about these companies click on one of the specific imag
 
 # Technical details
 
-The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 inside.
+The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 from the SmartMX family inside.
+
+### Standard family features
+1. EEPROM: choice of 16 KB, 20 KB, 40 KB or 80 KB
+- Data retention time: 25 years minimum
+- Endurance: 500000 cycles typical
+2. ROM: 264 KB
+3. RAM: 7680 B
+- 256 B IRAM + 4.75 KB standard RAM usable for CPU
+- 2560 B FXRAM usable for FameXE
+4. Dedicated, Accelerated Secure_MX51 smart card CPU (Memory eXtended/enhanced 80C51) 
+- 5-metal layer 0.14 μm CMOS technology
+- Operating in Contact and Contactless mode (dependent on family type option)
+- Featuring a 24-bit universal memory space, 24-bit program counter
+- Combined universal program and data linear address range up to 16 MB
+- Additional instructions to improve:
+  - pointer operations
+  - performance
+  - code density of both C and Java source code
+5. ISO/IEC 7816 contact interface
+6. ISO/IEC 14443 contactless interface
+7. PKI coprocessor FameXE
+8. Support of major Public Key Cryptography (PKC) systems such as RSA, Elgamel, DSS, Diffie-Hellman, Guillou-Quisquater, Fiat-Shamir and Elliptic Curves
+- 8192 bits maximum key length for RSA with randomly chosen modulus
+- 4096 bits maximum key length for calculation within RAM
+- 32-bit interface
+- Boolean operations for acceleration of standard, symmetric cipher algorithms
+9. High speed triple-DES coprocessor (64-bit parallel processing DES engine)
+- Two or three keys loadable
+- DES3 performance < 40 μs
+10. High speed AES coprocessor (128-bit parallel processing AES engine)
+11. Memory Management Unit (MMU) with increased number of 8 cache segments
+12. Low power and low voltage design using NXP Semiconductors’ handshaking technology
+13. Multiple source vectorized interrupt system with four priority levels
+14. Watch exception provides software debugging facility
+15. Multiple source RESET system
+16. Two 16-bit timers
+17. Highly reliable EEPROM for both data storage and program execution
+18. Bytewise EEPROM programming and read access
+19. Versatile EEPROM programming of 1 B to 64 B at a time or, optionally 1 B to 128 B at a time
+
+
+
+
+ CIU fully compatible with ISO/IEC 14443A:
+- 13.56 MHz operating frequency
+- fully supports the T=CL protocol in accordance with ISO/IEC 14443-4
+- factory configurable for higher input capacitance to match smaller loop antennas
+- supported data transfer rates: 106 kbit/s, 212 kbit/s, 424 kbit/s and 848 kbit/s
+- MIFARE reader infrastructure compatibility via optional MIFARE 1 K or 4 K
+emulation including built-in anticollision support
+ Two additional I/O ports: IO2 and IO3 for full-duplex serial data communication
 
 
 ## Applications & Use cases
