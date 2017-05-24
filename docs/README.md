@@ -7,34 +7,58 @@ For further informations about these companies click on one of the specific imag
 <a href="https://secure.zeitcontrol.de/shop"><img src="zeitcontrol_smartcard.png" float="right" width="48%" ></a>
 </div>
 
-# The Card Applications (all development demo state ;))
-  - German eID
-    - Test-PKI keys
-    - any terminal certificate allowed (verification switchted off for testing)
+# The Card Applications
+  - German eID, Trusted Mobile Wallet (TMW) implementation
+    - Test-PKI keys (CSCA and DVCA trust anchor)
+    - any terminal certificate allowed (verification switched off for testing)
     - transport PIN is "00000" and has to be changed to a 6-digit PIN before use
 
   - FIDO U2F
-    - unique hardware random generated master key
+    - unique hardware random generated master key, not known outside card
     - works with Google Authententicator
+    - unlimited keys, "database-less" key-derivation scheme
     
   - NDEF Typ 4 tag
     - 2kBytes in total size
     - open for read/write, pre-personalized to point your phone to this site
   
   - others in non-provisioned and/or experimental state
-
+    - OATH, PIV, SSCD, BTC, HSM
+    
   - the card issues a double-size non-random UID for use with simple NFC-locks, please keep
     in mind such locks are horribly unsafe
   
-Some dumbass readers (such as SCL011) are known NOT TO WORK reliably.
+Some readers (such as SCL011) are known NOT TO WORK reliably.
 
 # The Card
+  - BasicCard 7.6 revision D, ~72kBytes free EEPROM
+  - Basic language dialect used instead of JavaCard, .NET (C#), or MULTOS (MEL / C)
+  - VM implemented as stack machine
 
- 
+## Useful tools
+
+**NFC TagInfo from NXP Semiconductors for diagnostics**<br>
+[https://play.google.com/store/apps/details?id=com.nxp.taginfolite](https://play.google.com/store/apps/details?id=com.nxp.taginfolite)<br>
+
+**NFC Tools from wakdev to manage NDEF tag content**<br>
+[https://play.google.com/store/apps/details?id=com.wakdev.wdnfc](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc)<br>
+
+**Google Authenticator from Google for FIDO U2F NFC support**<br>
+[https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)<br>
+
+**FIDO U2F demo at Google appspot**<br>
+[https://u2fdemo.appspot.com/](https://u2fdemo.appspot.com/)<br>
+
+**AusweisApp2 from Governikus for eID functionality**<br>
+[https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2](https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2)<br>
+
+**Governikus Autent Test-PKI application for eID-Test**<br>
+[https://test.governikus-eid.de/Autent-DemoApplication/](https://test.governikus-eid.de/Autent-DemoApplication/)<br>
+
 
 # Technical details
 
-The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 from the SmartMX family inside.
+The smartcard is a BasicCard 7.6D contactless-only on NXP P5CD081 (SmartMX).
 
 ### Standard family features
 
@@ -107,29 +131,3 @@ The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 from the Sma
   - MIFARE reader infrastructure compatibility via optional MIFARE 1 K or 4 K emulation including built-in anticollision support
 - Two additional I/O ports: IO2 and IO3 for full-duplex serial data communication
 
-
-## Applications & Use cases
-
-- Trusted Mobile Wallet (TMW)
-- FIDO-U2F-Token
-- NFC-Tag
-
-## Useful tools
-
-**NFC TagInfo from NXP Semiconductors for diagnostics**<br>
-[https://play.google.com/store/apps/details?id=com.nxp.taginfolite](https://play.google.com/store/apps/details?id=com.nxp.taginfolite)<br>
-
-**NFC Tools from wakdev to manage NDEF tag content**<br>
-[https://play.google.com/store/apps/details?id=com.wakdev.wdnfc](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc)<br>
-
-**Google Authenticator from Google for FIDO U2F NFC support**<br>
-[https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)<br>
-
-**FIDO U2F demo at Google appspot**<br>
-[https://u2fdemo.appspot.com/](https://u2fdemo.appspot.com/)<br>
-
-**AusweisApp2 from Governikus for eID functionality**<br>
-[https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2](https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2)<br>
-
-**Governikus Autent Test-PKI application for eID-Test**<br>
-[https://test.governikus-eid.de/Autent-DemoApplication/](https://test.governikus-eid.de/Autent-DemoApplication/)<br>
