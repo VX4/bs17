@@ -87,6 +87,10 @@ The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 from the Sma
 
 ## Applications & Use cases
 
+- Trusted Mobile Wallet (TMW)
+- FIDO-U2F-Token
+- NFC-Tag
+
 ## Useful tools
 
 **NFC TagInfo from NXP Semiconductors for diagnostics**<br>
@@ -106,7 +110,7 @@ The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 from the Sma
 
 **Governikus Autent Test-PKI application for eID-Test**<br>
 [https://test.governikus-eid.de/Autent-DemoApplication/](https://test.governikus-eid.de/Autent-DemoApplication/)<br>
-
+<br><br><br><br><br><br><br>
 
 
 ## Welcome to GitHub Pages
