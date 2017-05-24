@@ -14,6 +14,7 @@ For further informations about these companies click on one of the specific imag
 The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 from the SmartMX family inside.
 
 ### Standard family features
+
 - EEPROM: choice of 16 KB, 20 KB, 40 KB or 80 KB
   - Data retention time: 25 years minimum
   - Endurance: 500000 cycles typical
@@ -51,18 +52,37 @@ The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 from the Sma
 - Highly reliable EEPROM for both data storage and program execution
 - Bytewise EEPROM programming and read access
 - Versatile EEPROM programming of 1 B to 64 B at a time or, optionally 1 B to 128 B at a time
+- Typical EEPROM page erasing time: 1.7 ms
+- Typical EEPROM page programming time: 1.0 ms
+- Power-saving Idle mode
+- Wake-up from Idle mode by RESET or any activated interrupt
+- Contact configuration and serial interface in accordance with ISO/IEC 7816
+- Power-saving Sleep (power-down) mode or Clockstop mode
+- ISO/IEC 7816 UART supporting standard protocols T=0 and T=1 as well as high speed personalization up to 1 Mbit/s
+- External or internally generated configurable CPU clock
+- 1 MHz to 10 MHz operating external clock frequency range
+  - Internal CPU clock up to 30 MHz with synchronous operation
+  - Internal clocking independent of externally applied frequency
+- High speed 16-bit CRC engine in accordance with ITU-T polynomial definition
+- Low power Random Number Generator (RNG) in hardware, AIS-31 compliant
+- 1.62 V to 5.5 V extended operating voltage range for class C, B and A
+- Optional extended Class B operation mode (2.2 V to 5.5 V targeted for battery supplied applications)
+- −25 °C to +85 °C ambient temperature
+- Broad spectrum of delivery types:
+  - Wafers
+  - Modules
+  - Packages
+  - Inlays
 
+### P5CD081 specific features
 
-
-
- CIU fully compatible with ISO/IEC 14443A:
-- 13.56 MHz operating frequency
-- fully supports the T=CL protocol in accordance with ISO/IEC 14443-4
-- factory configurable for higher input capacitance to match smaller loop antennas
-- supported data transfer rates: 106 kbit/s, 212 kbit/s, 424 kbit/s and 848 kbit/s
-- MIFARE reader infrastructure compatibility via optional MIFARE 1 K or 4 K
-emulation including built-in anticollision support
- Two additional I/O ports: IO2 and IO3 for full-duplex serial data communication
+- CIU fully compatible with ISO/IEC 14443A:
+  - 13.56 MHz operating frequency
+  - fully supports the T=CL protocol in accordance with ISO/IEC 14443-4
+  - factory configurable for higher input capacitance to match smaller loop antennas
+  - supported data transfer rates: 106 kbit/s, 212 kbit/s, 424 kbit/s and 848 kbit/s
+  - MIFARE reader infrastructure compatibility via optional MIFARE 1 K or 4 K emulation including built-in anticollision support
+- Two additional I/O ports: IO2 and IO3 for full-duplex serial data communication
 
 
 ## Applications & Use cases
