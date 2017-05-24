@@ -89,23 +89,23 @@ The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 from the Sma
 
 ## Useful tools
 
-**NFC TagInfo from NXP Semiconductors for diagnostics**
-[https://play.google.com/store/apps/details?id=com.nxp.taginfolite](https://play.google.com/store/apps/details?id=com.nxp.taginfolite)
+**NFC TagInfo from NXP Semiconductors for diagnostics**<br>
+[https://play.google.com/store/apps/details?id=com.nxp.taginfolite](https://play.google.com/store/apps/details?id=com.nxp.taginfolite)<br>
 
-**NFC Tools from wakdev to manage NDEF tag content**
-[https://play.google.com/store/apps/details?id=com.wakdev.wdnfc](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc)
+**NFC Tools from wakdev to manage NDEF tag content**<br>
+[https://play.google.com/store/apps/details?id=com.wakdev.wdnfc](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc)<br>
 
-**Google Authenticator from Google for FIDO U2F NFC support**
-[https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
+**Google Authenticator from Google for FIDO U2F NFC support**<br>
+[https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)<br>
 
-**FIDO U2F demo at Google appspot**
-[https://u2fdemo.appspot.com/](https://u2fdemo.appspot.com/)
+**FIDO U2F demo at Google appspot**<br>
+[https://u2fdemo.appspot.com/](https://u2fdemo.appspot.com/)<br>
 
-**AusweisApp2 from Governikus for eID functionality**
-[https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2](https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2)
+**AusweisApp2 from Governikus for eID functionality**<br>
+[https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2](https://play.google.com/store/apps/details?id=com.governikus.ausweisapp2)<br>
 
-**Governikus Autent Test-PKI application for eID-Test**
-[https://test.governikus-eid.de/Autent-DemoApplication/](https://test.governikus-eid.de/Autent-DemoApplication/)
+**Governikus Autent Test-PKI application for eID-Test**<br>
+[https://test.governikus-eid.de/Autent-DemoApplication/](https://test.governikus-eid.de/Autent-DemoApplication/)<br>
 
 
 
