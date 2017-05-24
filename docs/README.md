@@ -110,7 +110,7 @@ The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 from the Sma
 [https://test.governikus-eid.de/Autent-DemoApplication/](https://test.governikus-eid.de/Autent-DemoApplication/)<br>
 <br><br><br><br><br><br><br>
 
-
+/*
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/VX4/bs17/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -148,3 +148,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+*/
