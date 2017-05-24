@@ -7,6 +7,7 @@ For further informations about these companies click on one of the specific imag
 <a href="https://secure.zeitcontrol.de/shop"><img src="zeitcontrol_smartcard.png" float="right" width="48%" ></a>
 </div>
 <br>
+
 # Technical details
 
 The smartcard given to you is a BasicCard ZC7.6 with an NXP P5CD081 from the SmartMX family inside.
