@@ -6,7 +6,6 @@ For further informations about these companies click on one of the specific imag
 <a href="https://adesso.de"><img src="adesso_smartcard.png" float="left"  width="48%" ></a>
 <a href="https://secure.zeitcontrol.de/shop"><img src="zeitcontrol_smartcard.png" float="right" width="48%" ></a>
 </div>
-<br>
 
 # Technical details
 
