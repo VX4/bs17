@@ -1,11 +1,36 @@
 # Welcome stranger!
 This is the repository for Berlin Sides 2017 "Smartcard Island".<br>
-A  project from adesso AG and ZeitControl cardsystems GmbH.<br>
+A project from adesso AG and ZeitControl cardsystems GmbH.<br>
 For further informations about these companies click on one of the specific images below.<br>
 <div>
 <a href="https://adesso.de"><img src="adesso_smartcard.png" float="left"  width="48%" ></a>
 <a href="https://secure.zeitcontrol.de/shop"><img src="zeitcontrol_smartcard.png" float="right" width="48%" ></a>
 </div>
+
+# The Card Applications (all development demo state ;))
+  - German eID
+    - Test-PKI keys
+    - any terminal certificate allowed (verification switchted off for testing)
+    - transport PIN is "00000" and has to be changed to a 6-digit PIN before use
+
+  - FIDO U2F
+    - unique hardware random generated master key
+    - works with Google Authententicator
+    
+  - NDEF Typ 4 tag
+    - 2kBytes in total size
+    - open for read/write, pre-personalized to point your phone to this site
+  
+  - others in non-provisioned and/or experimental state
+
+  - the card issues a double-size non-random UID for use with simple NFC-locks, please keep
+    in mind such locks are horribly unsafe
+  
+Some dumbass readers (such as SCL011) are known NOT TO WORK reliably.
+
+# The Card
+
+ 
 
 # Technical details
 
