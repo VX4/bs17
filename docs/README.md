@@ -33,8 +33,15 @@ Some readers (such as SCL011) are known NOT TO WORK reliably.
 # The Card
   - BasicCard 7.6 revision D, ~72kBytes free EEPROM
   - Basic language dialect used instead of JavaCard, .NET (C#), or MULTOS (MEL / C)
-  - VM implemented as stack machine, much more efficient than JavaCard
-  - [Developer Documentation/](./BasicCrd.pdf)
+  - developers have to learn additional language(s) (dialects) for resource constrained environments
+  - programming MULTOS is not a pleasure, Javacard has a varying support of primitives and .NET card is (almost?) dead
+  - Basic dialect quite simple, easy to learn and understand, offers efficient expressions
+  - different variants exists as multi application and as "single application" card, 7.x is a single application variant
+  - VM implemented as stack machine, much more efficient than JavaCard esp. for array / string operations and access to
+    far more useful cryptographic primitives (point addition, simple scalar multiplication, lots of built-in curves,
+    big number operations, SHA512, etc.)
+  - [Developer Documentation](./BasicCrd.pdf)
+  - [Overview Datasheet](./ProMultiDataSheet.pdf)
 
 ## Useful tools
 
@@ -57,11 +64,11 @@ Some readers (such as SCL011) are known NOT TO WORK reliably.
 [https://test.governikus-eid.de/Autent-DemoApplication/](https://test.governikus-eid.de/Autent-DemoApplication/)<br>
 
 
-# Technical details
+# Technical chip details
 
 The smartcard is a BasicCard 7.6D contactless-only on NXP P5CD081 (SmartMX).
 
-### Standard family features
+### Standard SmartMX family features
 
 - EEPROM: choice of 16 KB, 20 KB, 40 KB or 80 KB
   - Data retention time: 25 years minimum
@@ -91,44 +98,16 @@ The smartcard is a BasicCard 7.6D contactless-only on NXP P5CD081 (SmartMX).
   - Two or three keys loadable
   - DES3 performance < 40 μs
 - High speed AES coprocessor (128-bit parallel processing AES engine)
-- Memory Management Unit (MMU) with increased number of 8 cache segments
-- Low power and low voltage design using NXP Semiconductors’ handshaking technology
-- Multiple source vectorized interrupt system with four priority levels
-- Watch exception provides software debugging facility
-- Multiple source RESET system
-- Two 16-bit timers
-- Highly reliable EEPROM for both data storage and program execution
-- Bytewise EEPROM programming and read access
-- Versatile EEPROM programming of 1 B to 64 B at a time or, optionally 1 B to 128 B at a time
-- Typical EEPROM page erasing time: 1.7 ms
-- Typical EEPROM page programming time: 1.0 ms
-- Power-saving Idle mode
-- Wake-up from Idle mode by RESET or any activated interrupt
-- Contact configuration and serial interface in accordance with ISO/IEC 7816
-- Power-saving Sleep (power-down) mode or Clockstop mode
 - ISO/IEC 7816 UART supporting standard protocols T=0 and T=1 as well as high speed personalization up to 1 Mbit/s
-- External or internally generated configurable CPU clock
-- 1 MHz to 10 MHz operating external clock frequency range
-  - Internal CPU clock up to 30 MHz with synchronous operation
-  - Internal clocking independent of externally applied frequency
-- High speed 16-bit CRC engine in accordance with ITU-T polynomial definition
 - Low power Random Number Generator (RNG) in hardware, AIS-31 compliant
 - 1.62 V to 5.5 V extended operating voltage range for class C, B and A
 - Optional extended Class B operation mode (2.2 V to 5.5 V targeted for battery supplied applications)
 - −25 °C to +85 °C ambient temperature
-- Broad spectrum of delivery types:
-  - Wafers
-  - Modules
-  - Packages
-  - Inlays
 
 ### P5CD081 specific features
 
 - CIU fully compatible with ISO/IEC 14443A:
   - 13.56 MHz operating frequency
-  - fully supports the T=CL protocol in accordance with ISO/IEC 14443-4
-  - factory configurable for higher input capacitance to match smaller loop antennas
   - supported data transfer rates: 106 kbit/s, 212 kbit/s, 424 kbit/s and 848 kbit/s
   - MIFARE reader infrastructure compatibility via optional MIFARE 1 K or 4 K emulation including built-in anticollision support
-- Two additional I/O ports: IO2 and IO3 for full-duplex serial data communication
 
