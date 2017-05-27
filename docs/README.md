@@ -16,7 +16,7 @@ For further informations about these companies click on one of the specific imag
   - FIDO U2F
     - unique hardware random generated master key, not known outside card
     - works with Google Authententicator
-    - unlimited keys, "database-less" key-derivation scheme
+    - "unlimited keys", "database-less" key-derivation scheme
     
   - NDEF Typ 4 tag
     - 2kBytes in total size
@@ -33,7 +33,8 @@ Some readers (such as SCL011) are known NOT TO WORK reliably.
 # The Card
   - BasicCard 7.6 revision D, ~72kBytes free EEPROM
   - Basic language dialect used instead of JavaCard, .NET (C#), or MULTOS (MEL / C)
-  - VM implemented as stack machine
+  - VM implemented as stack machine, much more efficient than JavaCard
+  - [Developer Documentation/](./BasicCrd.pdf)
 
 ## Useful tools
 
